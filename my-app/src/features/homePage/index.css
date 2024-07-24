@@ -2,9 +2,12 @@
   background-color: #1AA9EC;
 }
 
-Header {
-  height: 10vh; 
+.header {
+  text-align:center;
+  align-items: center;
+  padding: 20px 0px; 
 }
+
 
 .homepage {
   display: flex;
@@ -76,7 +79,7 @@ Header {
   box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
 }
 
-.box a:hover {
+/* .box a:hover {
   background-color: #0056b3;
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3);
@@ -86,7 +89,7 @@ Header {
 .box:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
+} */
 
 
 @media screen and (max-width: 768px) {

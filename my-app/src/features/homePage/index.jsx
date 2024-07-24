@@ -3,6 +3,11 @@ import './index.css';
 
 function HomePage() {
   return (
+    <>
+      <header className="header">
+          <h1>Home Page</h1>
+          <p>A small page by Leo</p>
+      </header>
       <div className='page'>
         <div className="homepage">
           <div className="text-container">
@@ -27,7 +32,8 @@ function HomePage() {
           </div>
         </div>
       </div>
-    );
+    </>
+  );
 }
 
 export default HomePage;
