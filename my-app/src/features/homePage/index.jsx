@@ -1,5 +1,5 @@
 import './index.css';
-import GameCard from './components/GameCard';
+import GameCard from './components/gameCard';
 import ListedGames from './listedGames'
 
 function HomePage() {
