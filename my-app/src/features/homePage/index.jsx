@@ -1,6 +1,6 @@
 import './index.css';
 import GameCard from './components/GameCard';
-import ListedGames from 'features/homePage/listedGames'
+import ListedGames from './listedGames'
 
 function HomePage() {
   return (
@@ -12,7 +12,7 @@ function HomePage() {
       <div className='GameCardContainer'>
         {
           ListedGames.map((game) => (
-            <GameCard game={game}/>
+            <GameCard game={game} key={game.PATH}/>
           ))
         }
       </div>
