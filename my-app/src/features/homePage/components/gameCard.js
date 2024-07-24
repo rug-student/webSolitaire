@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
+// The svg images require width="100%" and height="100%" to scale correctly
 function GameCard({game}) {
   return (
     <Link className="link" to={game.PATH} >

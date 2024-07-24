@@ -1,4 +1,5 @@
 import PathConstants from 'routes/pathConstants'
+
 import solitaire from 'assests/images/solitaire.svg'
 
 const ListedGames = [
