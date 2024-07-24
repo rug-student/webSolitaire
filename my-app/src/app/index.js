@@ -1,19 +1,23 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
-import Home from 'features/homePage';
-import Solitaire from 'features/solitaire'
+import {  createBrowserRouter,  RouterProvider} from "react-router-dom"
+import routes from 'routes'
+import Layout from 'components/Layout'
 
 const App = () => {
+  const router = createBrowserRouter([
+    {
+      element: <Layout />,
+      // specify the routes defined in the
+      // routing layer directly
+      children: routes
+    },
+  ])
+
   return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/solitaire" element={<Solitaire />} />
-      </Routes>
-    </Router>
-);
+      <RouterProvider router={router} />
+  )
 }
 
 export default App;
