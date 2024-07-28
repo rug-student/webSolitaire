@@ -1,29 +1,9 @@
-import PathConstants from 'src/routes/pathConstants'
+import PathConstants from 'routes/pathConstants'
 
-import solitaire from 'src/assests/images/solitaire.svg'
+import solitaire from 'assests/images/solitaire.svg'
 
 const ListedGames = [
   {
-    NAME: "Solitaire",
-    PATH: PathConstants.SOLITAIRE,
-    IMAGE: solitaire,
-  },{
-    NAME: "Solitaire",
-    PATH: PathConstants.SOLITAIRE,
-    IMAGE: solitaire,
-  },{
-    NAME: "Solitaire",
-    PATH: PathConstants.SOLITAIRE,
-    IMAGE: solitaire,
-  },{
-    NAME: "Solitaire",
-    PATH: PathConstants.SOLITAIRE,
-    IMAGE: solitaire,
-  },{
-    NAME: "Solitaire",
-    PATH: PathConstants.SOLITAIRE,
-    IMAGE: solitaire,
-  },{
     NAME: "Solitaire",
     PATH: PathConstants.SOLITAIRE,
     IMAGE: solitaire,
