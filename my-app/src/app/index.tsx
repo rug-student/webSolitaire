@@ -1,9 +1,8 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {  createBrowserRouter,  RouterProvider} from "react-router-dom"
-import routes from 'routes'
-import Layout from 'components/Layout'
+import routes from 'src/routes'
+import Layout from 'src/components/Layout'
 
 const App = () => {
   const router = createBrowserRouter([

@@ -3,12 +3,12 @@ import "./index.css"
 
 function Solitaire() {
     return(
-      <main>
+      <div className='main'>
         <div className='container'>
           
               <div draggable className='box'></div>
         </div>
-      </main>
+      </div>
     )
   
 }
